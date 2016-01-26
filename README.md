@@ -1,2 +1,2 @@
 # fibonacci
-Fibonacci sequencer with recursion.
+Fibonacci sequencer using two methods: iteration and recursion.
