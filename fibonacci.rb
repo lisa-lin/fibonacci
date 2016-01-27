@@ -1,13 +1,13 @@
 # Iterative method
 def fib(n)
 	ary = [0, 1]
-  
-  while n > 1 do 
-    m = ary[-2] + ary[-1]
-    ary << m
-    n -= 1
-  end
-  return ary[-1]
+
+	while n > 1 do 
+		m = ary[-2] + ary[-1]
+		ary << m
+		n -= 1
+	end
+	return ary[-1]
 end
 
 # Recursive method
