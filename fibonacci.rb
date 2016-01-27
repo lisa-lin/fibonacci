@@ -22,3 +22,4 @@ puts "Sequence[10] is 55"
 
 puts "Iterative method: #{fib(10)}"
 puts "Recursive method: #{fib_rec(10)}"
+ 
