@@ -1,4 +1,4 @@
-# Iterative method
+# Iterative method:
 def fib(n)
 	ary = [0, 1]
 
@@ -10,7 +10,7 @@ def fib(n)
 	return ary[-1]
 end
 
-# Recursive method
+# Recursive method:
 def fib_rec(n)
 	return 0 if n == 0
 	return 1 if n == 1
