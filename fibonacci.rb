@@ -1,6 +1,6 @@
 # Iterative method
 def fib(n)
-  ary = [0, 1]
+	ary = [0, 1]
   
   while n > 1 do 
     m = ary[-2] + ary[-1]
