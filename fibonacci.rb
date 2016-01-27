@@ -1,5 +1,6 @@
 # Iterative method
 def fib(n)
+<<<<<<< HEAD
 	ary = [0, 1]
 
 	while n > 1 do 
@@ -8,6 +9,16 @@ def fib(n)
 		n -= 1
 	end
 	return ary[-1]
+=======
+  ary = [0, 1]
+  
+  while n > 1 do 
+    m = ary[-2] + ary[-1]
+    ary << m
+    n -= 1
+  end
+  return ary[-1]
+>>>>>>> 33005c56560909aee8785d33e78b63cac518f115
 end
 
 # Recursive method
@@ -22,3 +33,4 @@ puts "Sequence[10] is 55"
 
 puts "Iterative method: #{fib(10)}"
 puts "Recursive method: #{fib_rec(10)}"
+ 
